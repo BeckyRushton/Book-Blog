@@ -1,0 +1,29 @@
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  gap: 30px;
+  margin: 25px 0;
+
+  font-size: 2rem;
+  font-weight: bold;
+}
+.aboutSection {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(159, 159, 216);
+}
+
+.recentBlogSection {
+  height: 600px;
+  width: 100%;
+  background-color: rgb(97, 211, 158);
+}
+
+.carouselSection {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(216, 206, 159);
+}

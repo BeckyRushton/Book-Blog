@@ -1,15 +1,17 @@
 import React from "react";
 import "./Main.scss";
 import Carousel from "../../components/Carousel/Carousel";
-import Favourites from "../Favourites/Favourites";
+import BlogPosts from "../BlogPosts/BlogPosts";
 import About from "../About/About";
+import Title from "../../components/Title/Title";
 
 const Main = () => {
   return (
-    <div>
-      <About />
-      <Favourites />
-      <Carousel />
+    <div className="mainSection">
+      <Title />
+      <div className="aboutSection">About</div>
+      <div className="recentBlogSection">Blog</div>
+      <div className="carouselSection">Carousel</div>
     </div>
   );
 };

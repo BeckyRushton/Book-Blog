@@ -1,0 +1,16 @@
+.titleSection {
+  height: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    font-size: 3rem;
+  }
+  &__tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+}
