@@ -1,8 +1,8 @@
 import React from "react";
 import "./Main.scss";
-import Carousel from "../../components/Carousel/Carousel";
-import BlogPosts from "../BlogPosts/BlogPosts";
-import About from "../About/About";
+// import Carousel from "../../components/Carousel/Carousel";
+// import BlogPosts from "../BlogPosts/BlogPosts";
+// import About from "../About/About";
 import Title from "../../components/Title/Title";
 
 const Main = () => {

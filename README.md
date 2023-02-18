@@ -16,3 +16,9 @@ Theme ideas:
 - Light and airy colours/fonts/containers
 - Pastels and natural imagery
 - Bugs dotted around page (book worm)
+
+To-dos
+
+- Set up links between all pages (and back buttons/home button)
+- Style each page
+- Add a blog post and favourite books to test out front page
