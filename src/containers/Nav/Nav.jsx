@@ -1,8 +1,5 @@
 import React from "react";
 import "./Nav.scss";
-// import Favourites from "../Favourites/Favourites";
-// import TBR from "../TBR/TBR";
-// import BlogPosts from "../BlogPosts/BlogPosts";
 import Button from "../../components/Button/Button";
 import { Link } from "react-router-dom";
 
@@ -32,6 +29,12 @@ const Nav = () => {
         to={`/favourites`}
       >
         <Button buttonText={"Favourites"} />
+      </Link>
+      <Link
+        style={{ color: "inherit", textDecoration: "inherit" }}
+        to={`/about`}
+      >
+        <Button buttonText={"About"} />
       </Link>
     </div>
   );

@@ -7,6 +7,7 @@ import BlogPosts from "./containers/BlogPosts/BlogPosts";
 import TBR from "./containers/TBR/TBR";
 import Bookshelf from "./containers/Bookshelf/Bookshelf";
 import Favourites from "./containers/Favourites/Favourites";
+import About from "./containers/About/About";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/tbr" element={<TBR />}></Route>
           <Route path="/bookshelf" element={<Bookshelf />}></Route>
           <Route path="/favourites" element={<Favourites />}></Route>
+          <Route path="/about" element={<About />}></Route>
         </Routes>
       </div>
     </Router>

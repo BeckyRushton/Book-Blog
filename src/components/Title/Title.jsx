@@ -3,9 +3,9 @@ import "./Title.scss";
 
 const Title = () => {
   return (
-    <div className="titleSection">
-      <h2 className="titleSection__title">Becky's Book Blog</h2>
-      <p className="titleSection__tagline">
+    <div className="title-section">
+      <h2 className="title-section__title">Becky's Book Blog</h2>
+      <p className="title-section__tagline">
         Sharing my love of writing, characters and stories...
       </p>
     </div>
