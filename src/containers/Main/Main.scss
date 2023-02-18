@@ -15,42 +15,51 @@
 }
 .about-section {
   width: 100%;
-  background-color: $background-colour;
-  border: 3px solid $accent-colour;
-  border-radius: 20px;
 
   &__title {
     color: $second-accent-colour;
     font-family: $title-font;
-    padding: 20px;
     font-size: 3rem;
+  }
+  &__body {
+    border: 3px solid $accent-colour;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: $body-font;
+    font-size: 1.5rem;
   }
 }
 
 .blog-section {
   width: 100%;
-  background-color: $background-colour;
-  border: 3px solid $accent-colour;
-  border-radius: 20px;
 
   &__title {
     color: $second-accent-colour;
     font-family: $title-font;
-    padding: 20px;
     font-size: 3rem;
+  }
+  &__body {
+    border: 3px solid $accent-colour;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: $body-font;
+    font-size: 1.5rem;
   }
 }
 
 .carousel-section {
   width: 100%;
-  background-color: $background-colour;
-  border: 3px solid $accent-colour;
-  border-radius: 20px;
 
   &__title {
     color: $second-accent-colour;
     font-family: $title-font;
-    padding: 20px;
     font-size: 3rem;
+  }
+  &__body {
+    border: 3px solid $accent-colour;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: $body-font;
+    font-size: 1.5rem;
   }
 }

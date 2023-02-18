@@ -13,13 +13,16 @@ const Main = () => {
       </div>
 
       <div className="about-section">
-        <div className="about-section__title">About</div>{" "}
+        <div className="about-section__title">About</div>
+        <div className="about-section__body">Text</div>
       </div>
       <div className="blog-section">
         <div className="blog-section__title">Blog Posts</div>
+        <div className="blog-section__body">Text</div>
       </div>
       <div className="carousel-section">
-        <div className="carousel-section__title">Carousel</div>{" "}
+        <div className="carousel-section__title">Carousel</div>
+        <div className="carousel-section__body">Text</div>
       </div>
     </div>
   );
