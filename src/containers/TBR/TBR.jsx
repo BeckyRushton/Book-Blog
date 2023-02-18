@@ -6,9 +6,12 @@ import Button from "../../components/Button/Button";
 const TBR = () => {
   return (
     <div>
-      <div className="blogSection">
-        <div className="blog-posts-home-button">
-          <Link to={"/"} style={{ textDecoration: "none" }}>
+      <div className="tbr-section">
+        <div className="tbr-section__home">
+          <Link
+            to={"/"}
+            style={{ color: "inherit", textDecoration: "inherit" }}
+          >
             <Button buttonText={"Home"}></Button>
           </Link>
         </div>

@@ -20,5 +20,6 @@ Theme ideas:
 To-dos
 
 - Set up links between all pages (and back buttons/home button)
+- Intergrate google books API
 - Style each page
 - Add a blog post and favourite books to test out front page

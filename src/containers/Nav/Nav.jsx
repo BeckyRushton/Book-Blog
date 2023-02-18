@@ -9,14 +9,29 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="navbar">
-      <Link style={{ textDecoration: "none" }} to={`/blogposts`}>
+      <Link style={{ color: "inherit", textDecoration: "inherit" }} to={`/`}>
+        <Button buttonText={"Home"} />
+      </Link>
+      <Link
+        style={{ color: "inherit", textDecoration: "inherit" }}
+        to={`/blogposts`}
+      >
         <Button buttonText={"Blog Posts"} />
       </Link>
-      <Link style={{ textDecoration: "none" }} to={`/tbr`}>
+      <Link style={{ color: "inherit", textDecoration: "inherit" }} to={`/tbr`}>
         <Button buttonText={"TBR"} />
       </Link>
-      <Link style={{ textDecoration: "none" }} to={`/bookshelf`}>
+      <Link
+        style={{ color: "inherit", textDecoration: "inherit" }}
+        to={`/bookshelf`}
+      >
         <Button buttonText={"Bookshelf"} />
+      </Link>
+      <Link
+        style={{ color: "inherit", textDecoration: "inherit" }}
+        to={`/favourites`}
+      >
+        <Button buttonText={"Favourites"} />
       </Link>
     </div>
   );
