@@ -1,0 +1,17 @@
+@import "../../assets/sass/globalStyles.scss";
+
+.blog-post {
+  width: 100%;
+  padding: 20px;
+
+  &__title {
+    color: $second-accent-colour;
+    font-family: $title-font;
+    font-size: 4rem;
+  }
+  &__body {
+    padding: 20px;
+    font-family: $body-font;
+    font-size: 1.5rem;
+  }
+}

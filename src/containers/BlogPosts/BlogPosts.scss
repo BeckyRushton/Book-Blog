@@ -1,1 +1,60 @@
 @import "../../assets/sass/globalStyles.scss";
+.blog-section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-section {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-size: 4.5rem;
+    padding: 10px 20px;
+  }
+  &__home {
+    padding-left: 45%;
+  }
+  &__post {
+    border: 3px solid $accent-colour;
+    border-radius: 10px;
+    margin: 20px;
+  }
+
+  &__home--button {
+    border: 3px solid $accent-colour;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    font-family: $body-font;
+    font-size: 1.3rem;
+    margin: 20px;
+    background-color: $accent-colour;
+    color: white;
+    box-shadow: 2px 2px 2px $second-accent-colour;
+  }
+  &__home--button:hover {
+    background-color: $second-accent-colour;
+    border: 3px solid $second-accent-colour;
+    box-shadow: 2px 2px 2px $accent-colour;
+    transition: 400ms;
+  }
+  &__new--button {
+    border: 3px solid $accent-colour;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    font-family: $body-font;
+    font-size: 1.3rem;
+    margin: 20px;
+    background-color: $accent-colour;
+    color: white;
+    box-shadow: 2px 2px 2px $second-accent-colour;
+  }
+  &__new--button:hover {
+    background-color: $second-accent-colour;
+    border: 3px solid $second-accent-colour;
+    box-shadow: 2px 2px 2px $accent-colour;
+    transition: 400ms;
+  }
+}
