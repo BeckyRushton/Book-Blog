@@ -6,7 +6,7 @@ import Main from "./containers/Main/Main";
 import BlogPosts from "./containers/BlogPosts/BlogPosts";
 import Crochet from "./containers/Crochet/Crochet";
 import Bookshelf from "./containers/Bookshelf/Bookshelf";
-import Favourites from "./containers/Favourites/Favourites";
+import Fashion from "./containers/Fashion/Fashion";
 import About from "./containers/About/About";
 import blogpostArr from "./blogposts.js";
 
@@ -24,7 +24,7 @@ function App() {
           ></Route>
           <Route path="/tbr" element={<Crochet />}></Route>
           <Route path="/bookshelf" element={<Bookshelf />}></Route>
-          <Route path="/favourites" element={<Favourites />}></Route>
+          <Route path="/fashion" element={<Fashion />}></Route>
           <Route path="/about" element={<About />}></Route>
         </Routes>
       </div>

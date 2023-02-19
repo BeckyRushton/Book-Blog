@@ -15,14 +15,24 @@ const Nav = () => {
       >
         Blog Posts
       </Link>
-      <Link style={{ color: "inherit", textDecoration: "inherit" }} to={`/tbr`}>
-        Crochet
+      <Link
+        style={{ color: "inherit", textDecoration: "inherit" }}
+        to={`/bookshelf`}
+      >
+        Bookshelf
       </Link>
       <Link
         style={{ color: "inherit", textDecoration: "inherit" }}
         to={`/crochet`}
       >
-        Bookshelf
+        Crochet
+      </Link>
+
+      <Link
+        style={{ color: "inherit", textDecoration: "inherit" }}
+        to={`/fashion`}
+      >
+        Fashion
       </Link>
 
       <Link
