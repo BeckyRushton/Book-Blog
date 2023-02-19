@@ -22,7 +22,7 @@ function App() {
             path="/blogposts"
             element={<BlogPosts blogpostArr={blogpostArr} />}
           ></Route>
-          <Route path="/tbr" element={<Crochet />}></Route>
+          <Route path="/crochet" element={<Crochet />}></Route>
           <Route path="/bookshelf" element={<Bookshelf />}></Route>
           <Route path="/fashion" element={<Fashion />}></Route>
           <Route path="/about" element={<About />}></Route>

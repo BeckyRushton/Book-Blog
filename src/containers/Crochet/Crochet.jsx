@@ -1,13 +1,13 @@
 import React from "react";
-import "./TBR.scss";
+import "./Crochet.scss";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
 
-const TBR = () => {
+const Crochet = () => {
   return (
     <div>
-      <div className="tbr-section">
-        <div className="tbr-section__home">
+      <div className="crochet-section">
+        <div className="crochet-section__home">
           <Link
             to={"/"}
             style={{ color: "inherit", textDecoration: "inherit" }}
@@ -20,4 +20,4 @@ const TBR = () => {
   );
 };
 
-export default TBR;
+export default Crochet;
