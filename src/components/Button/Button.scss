@@ -1,4 +1,20 @@
 @import "../../assets/sass/globalStyles.scss";
 .button-style {
   cursor: pointer;
+  border: 3px solid $accent-colour;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+  font-family: $body-font;
+  font-size: 1.3rem;
+  margin: 20px;
+  background-color: $accent-colour;
+  color: white;
+  box-shadow: 2px 2px 2px $second-accent-colour;
+}
+.button-style:hover {
+  background-color: $second-accent-colour;
+  border: 3px solid $second-accent-colour;
+  box-shadow: 2px 2px 2px $accent-colour;
+  transition: 400ms;
 }

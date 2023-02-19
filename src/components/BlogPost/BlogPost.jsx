@@ -1,12 +1,13 @@
 import React from "react";
 import "./BlogPost.scss";
 
-const BlogPost = () => {
+const BlogPost = ({ blogpostArr }) => {
+  const targetObj = blogpostArr[0];
   return (
     <div className="blog-post-section">
       <div className="blog-post">
-        <div className="blog-post__title">title</div>
-        <div className="blog-post__body">body</div>
+        <div className="blog-post__title">{targetObj.title}</div>
+        <div className="blog-post__body">{targetObj.text}</div>
       </div>
     </div>
   );

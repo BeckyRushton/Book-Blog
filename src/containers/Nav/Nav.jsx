@@ -1,40 +1,35 @@
 import React from "react";
 import "./Nav.scss";
-import Button from "../../components/Button/Button";
+
 import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <div className="navbar">
       <Link style={{ color: "inherit", textDecoration: "inherit" }} to={`/`}>
-        <Button buttonText={"Home"} />
+        Home
       </Link>
       <Link
         style={{ color: "inherit", textDecoration: "inherit" }}
         to={`/blogposts`}
       >
-        <Button buttonText={"Blog Posts"} />
+        Blog Posts
       </Link>
       <Link style={{ color: "inherit", textDecoration: "inherit" }} to={`/tbr`}>
-        <Button buttonText={"TBR"} />
+        Crochet
       </Link>
       <Link
         style={{ color: "inherit", textDecoration: "inherit" }}
-        to={`/bookshelf`}
+        to={`/crochet`}
       >
-        <Button buttonText={"Bookshelf"} />
+        Bookshelf
       </Link>
-      <Link
-        style={{ color: "inherit", textDecoration: "inherit" }}
-        to={`/favourites`}
-      >
-        <Button buttonText={"Favourites"} />
-      </Link>
+
       <Link
         style={{ color: "inherit", textDecoration: "inherit" }}
         to={`/about`}
       >
-        <Button buttonText={"About"} />
+        About
       </Link>
     </div>
   );

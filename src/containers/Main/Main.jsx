@@ -5,24 +5,24 @@ import "./Main.scss";
 // import About from "../About/About";
 import Title from "../../components/Title/Title";
 
-const Main = () => {
+const Main = ({ blogpostArr }) => {
   return (
     <div className="main-section">
       <div className="title-section">
         <Title />
       </div>
 
-      <div className="about-section">
-        <div className="about-section__title">About</div>
-        <div className="about-section__body">Text</div>
+      <div className="about-section-main">
+        <div className="about-section-main__title">About</div>
+        <div className="about-section-main__body">Text</div>
       </div>
-      <div className="blog-section">
-        <div className="blog-section__title">Blog Posts</div>
-        <div className="blog-section__body">Text</div>
+      <div className="blog-section-main">
+        <div className="blog-section-main__title">Blog Posts</div>
+        <div className="blog-section-main__body">Text</div>
       </div>
-      <div className="carousel-section">
-        <div className="carousel-section__title">Carousel</div>
-        <div className="carousel-section__body">Text</div>
+      <div className="carousel-section-main">
+        <div className="carousel-section-main__title">Carousel</div>
+        <div className="carousel-section-main__body">Text</div>
       </div>
     </div>
   );
