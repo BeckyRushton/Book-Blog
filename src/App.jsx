@@ -11,7 +11,6 @@ import About from "./containers/About/About";
 import blogpostArr from "./blogposts.js";
 
 function App() {
-  console.log(blogpostArr);
   return (
     <Router>
       <div className="App">
