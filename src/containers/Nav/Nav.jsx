@@ -21,19 +21,6 @@ const Nav = () => {
       >
         Bookshelf
       </Link>
-      <Link
-        style={{ color: "inherit", textDecoration: "inherit" }}
-        to={`/crochet`}
-      >
-        Crochet
-      </Link>
-
-      <Link
-        style={{ color: "inherit", textDecoration: "inherit" }}
-        to={`/fashion`}
-      >
-        Fashion
-      </Link>
 
       <Link
         style={{ color: "inherit", textDecoration: "inherit" }}
