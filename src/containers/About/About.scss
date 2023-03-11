@@ -1,6 +1,41 @@
 @import "../../assets/sass/globalStyles.scss";
-
-.about-section__image {
-  width: 30%;
-  border-radius: 300px;
+.about-section {
+  &__image {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--image {
+      width: 35%;
+      border-radius: 80%;
+      border: 5px dotted $second-accent-colour;
+    }
+  }
+  &__heading {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: $title-font;
+    color: $second-accent-colour;
+    padding: 0 20px;
+  }
+  &__subheading,
+  &__text {
+    font-size: 1.5rem;
+    font-family: $body-font;
+    padding: 20px;
+  }
+  &__facts {
+    font-size: 1.5rem;
+    font-family: $body-font;
+    font-weight: 500;
+    margin: 20px;
+    &--1,
+    &--2,
+    &--3 {
+      list-style: circle;
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin: 20px;
+    }
+  }
 }
