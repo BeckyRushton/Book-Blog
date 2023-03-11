@@ -28,18 +28,24 @@
   }
   &__body {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     border: 3px solid $accent-colour;
     border-radius: 20px;
-    width: 100%;
     padding: 20px;
   }
   &__text {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 75%;
+    font-weight: 400;
+  }
+  &__button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
   }
 }
 
@@ -59,14 +65,20 @@
     font-size: 1.5rem;
 
     &--title {
-      color: $second-accent-colour;
+      color: $accent-colour;
       font-family: $title-font;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     &--text {
       font-size: 1.3rem;
       color: $text-colour;
+      font-weight: 400;
     }
+  }
+  &__button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 }
 

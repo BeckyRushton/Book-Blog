@@ -4,7 +4,7 @@ import "./Carousel.scss";
 // import rightArrow from "../../assets/images/right-arrow.png";
 
 const Carousel = () => {
-  return <div className="carouselSection">Carousel</div>;
+  return <div className="carouselSection">Favourite Books</div>;
 };
 
 export default Carousel;
