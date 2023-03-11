@@ -7,11 +7,13 @@
   &__title {
     color: $second-accent-colour;
     font-family: $title-font;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   &__body {
     padding: 20px;
     font-family: $body-font;
     font-size: 1.5rem;
+    border: 3px solid $accent-colour;
+    border-radius: 10px;
   }
 }

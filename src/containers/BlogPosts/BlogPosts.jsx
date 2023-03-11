@@ -20,8 +20,11 @@ const BlogPosts = ({ blogpostArr }) => {
       </div>
 
       <div className="blog-section__post">
-        <BlogPost blogpostArr={blogpostArr} />
+        {blogpostArr.map((blog, index) => {
+          return <BlogPost blog={blog} key={index} />;
+        })}
       </div>
+
       <div className="blog-section__home">
         <Link to={"/"} style={{ color: "inherit", textDecoration: "inherit" }}>
           <Button buttonText={"Home"}></Button>
