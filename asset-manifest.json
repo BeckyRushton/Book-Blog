@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.83e67281.css",
-    "main.js": "/react-gh-pages/static/js/main.28118816.js",
-    "static/js/787.f2fc6191.chunk.js": "/react-gh-pages/static/js/787.f2fc6191.chunk.js",
-    "static/media/blog-owner-image.jpg": "/react-gh-pages/static/media/blog-owner-image.94b6f1c508ed109df65f.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.83e67281.css.map": "/react-gh-pages/static/css/main.83e67281.css.map",
-    "main.28118816.js.map": "/react-gh-pages/static/js/main.28118816.js.map",
-    "787.f2fc6191.chunk.js.map": "/react-gh-pages/static/js/787.f2fc6191.chunk.js.map"
+    "main.css": "/book-blog/static/css/main.83e67281.css",
+    "main.js": "/book-blog/static/js/main.4dce0416.js",
+    "static/js/787.f2fc6191.chunk.js": "/book-blog/static/js/787.f2fc6191.chunk.js",
+    "static/media/blog-owner-image.jpg": "/book-blog/static/media/blog-owner-image.94b6f1c508ed109df65f.jpg",
+    "index.html": "/book-blog/index.html",
+    "main.83e67281.css.map": "/book-blog/static/css/main.83e67281.css.map",
+    "main.4dce0416.js.map": "/book-blog/static/js/main.4dce0416.js.map",
+    "787.f2fc6191.chunk.js.map": "/book-blog/static/js/787.f2fc6191.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83e67281.css",
-    "static/js/main.28118816.js"
+    "static/js/main.4dce0416.js"
   ]
 }
